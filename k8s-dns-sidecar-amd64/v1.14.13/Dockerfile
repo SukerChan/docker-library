@@ -1,0 +1,1 @@
+FROM gcr.io/google-containers/k8s-dns-sidecar-amd64@sha256:cedc8fe2098dffc26d17f64061296b7aa54258a31513b6c52df271a98bb522b3

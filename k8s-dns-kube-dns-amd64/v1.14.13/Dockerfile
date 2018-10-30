@@ -1,0 +1,1 @@
+FROM gcr.io/google-containers/k8s-dns-kube-dns-amd64@sha256:618a82fa66cf0c75e4753369a6999032372be7308866fc9afb381789b1e5ad52
