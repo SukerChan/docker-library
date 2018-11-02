@@ -1,0 +1,1 @@
+FROM gcr.io/google-containers/coredns@sha256:3e2be1cec87aca0b74b7668bbe8c02964a95a402e45ceb51b2252629d608d03a
