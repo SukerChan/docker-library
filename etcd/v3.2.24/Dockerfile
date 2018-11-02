@@ -1,1 +1,3 @@
-FROM gcr.io/google-containers/etcd:3.2.24-1
+# FROM gcr.io/google-containers/etcd:3.2.24
+# FROM gcr.io/google-containers/etcd@sha256:905d7ca17fd02bc24c0eba9a062753aba15db3e31422390bc3238eb762339b20
+FROM mirrorgooglecontainers/etcd:3.2.24
