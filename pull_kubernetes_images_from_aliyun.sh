@@ -8,20 +8,18 @@ set -e
 KUBE_VERSION=v1.12.2
 KUBE_PAUSE_VERSION=3.1
 ETCD_VERSION=3.2.24
-DNS_VERSION=1.14.13
+DNS_VERSION=1.2.2
 
 GCR_URL=k8s.gcr.io
 ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/0916chen
 
-images=(kube-proxy-amd64:${KUBE_VERSION}
-kube-scheduler-amd64:${KUBE_VERSION}
-kube-controller-manager-amd64:${KUBE_VERSION}
-kube-apiserver-amd64:${KUBE_VERSION}
-pause-amd64:${KUBE_PAUSE_VERSION}
-etcd-amd64:${ETCD_VERSION}
-k8s-dns-sidecar-amd64:${DNS_VERSION}
-k8s-dns-kube-dns-amd64:${DNS_VERSION}
-k8s-dns-dnsmasq-nanny-amd64:${DNS_VERSION})
+images=(kube-proxy:${KUBE_VERSION}
+kube-scheduler:${KUBE_VERSION}
+kube-controller-manager:${KUBE_VERSION}
+kube-apiserver:${KUBE_VERSION}
+pause:${KUBE_PAUSE_VERSION}
+etcd:${ETCD_VERSION}
+coredns:${DNS_VERSION})
 
 
 for imageName in ${images[@]} ; do
