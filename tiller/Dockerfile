@@ -1,0 +1,1 @@
+FROM gcr.io/kubernetes-helm/tiller@sha256:e26d442fc283c8897f2c1e82c067c8aaa50ed55a1e7fbe608b1bc4d256c2cbc5
